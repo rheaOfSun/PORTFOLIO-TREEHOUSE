@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #222;
   background: #f7f5f0;
 }
@@ -44,6 +44,7 @@ a:hover {
     display: block;
     margin-right: auto;
     color: white;
+    font-style: italic;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
