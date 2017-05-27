@@ -72,11 +72,12 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 25%;
-  border: 3px solid white;
+  border: 1px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  opacity: .5;
 }
 .tag {
   background-color: #efefef;
@@ -132,6 +133,7 @@ header .profile-image:hover {
 }
 
 .gallery li {
+  display: inline-block;
   float: left;
   width: 45%;
   margin: 2.5%;
@@ -193,7 +195,7 @@ a.instagram {
   background-image: url(images/instagram.svg);
 }
 a.social:hover {
-  opacity: 1;
+  opacity: 2;
 }
 .clearfix {
   clear: both;
